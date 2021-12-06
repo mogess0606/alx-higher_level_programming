@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 # 0-safe_print_list.py
 # Brennan D Baraban <375@holbertonschool.com>
