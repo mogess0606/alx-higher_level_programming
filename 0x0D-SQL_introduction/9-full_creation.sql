@@ -1,10 +1,7 @@
 -- Syntax to create Second table
 
-CREATE TABLE second_table(
-id INT,
-name VARCHAR(256),
-score INT);
+CREATE TABLE second_table(id INT,name VARCHAR(256),score INT);
 
---Syntax  to add multiples rows to second table
+--Syntax  to add multiples rows to second table second_table
 
 insert into second_table(id,name,score) VALUES(1,'John',10),(2,'Alex',3),(3,'Bob',14),(4,'George',8);
