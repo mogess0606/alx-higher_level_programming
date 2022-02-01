@@ -1,6 +1,6 @@
 -- Syntax to create Second table
 
-CREATE TABLE second_table(id INT,name VARCHAR(256),score INT);
+CREATE TABLE IF NOT EXISTS second_table(id INT,name VARCHAR(256),score INT);
 
 --Syntax  to add multiples rows to second table second_table
 
