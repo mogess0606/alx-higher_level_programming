@@ -1,4 +1,6 @@
 -- Syntax lists all records of tables
 
-SELECT * FROM second_table  ORDER BY name DESC;
+SELECT score,name FROM second_table WHERE name IS NOT NULL  ORDER BY score DESC;
+
+
 
