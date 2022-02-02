@@ -1,5 +1,3 @@
 -- Sytntax used to lis all privileges of mysql
 
-SHOW GRANTS FOR 'user_0d_1'@'localhost';
-
-
+cat 0-privileges.sql | mysql -hlocalhost -uroot -p
