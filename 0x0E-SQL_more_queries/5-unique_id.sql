@@ -1,4 +1,4 @@
 -- syntax used to create unique id in mysql server
 
-CREATE TABLE IF NOT EXISTS unique_id(id INT UNIQUE DEFAULT, name VARCHAR(256));
+CREATE TABLE IF NOT EXISTS unique_id(id INT DEFAULT 1  UNIQUE, name VARCHAR(256));
 
